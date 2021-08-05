@@ -10,7 +10,7 @@ class MyProfile extends StatelessWidget {
         leading: IconButton(
           icon: Icon(
             Icons.arrow_back,
-            color: Colors.black,
+            color: Colors.red,
           ),
           onPressed: () {
             Navigator.pop(context);
@@ -19,9 +19,7 @@ class MyProfile extends StatelessWidget {
         actions: [
           IconButton(
             icon: Icon(Icons.edit, color: Colors.black),
-            onPressed: () {
-
-            },
+            onPressed: () {},
           ),
         ],
         title: Text(
